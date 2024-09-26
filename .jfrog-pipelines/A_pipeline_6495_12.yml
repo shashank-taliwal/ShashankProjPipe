@@ -3,9 +3,6 @@ pipelines:
    steps:
     - name: S_A_pipeline_64952
       type: Bash
-      configuration:
-        integrations:
-          - name: s_gitHub
       execution:
         onExecute:
           - echo "hi"
