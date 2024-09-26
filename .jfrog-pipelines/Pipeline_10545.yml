@@ -1,0 +1,12 @@
+pipelines:
+  - name: Pipeline_10545
+    steps:
+      - name: Pipeline_10545
+        type: Bash
+        configuration:
+          environmentVariables:
+            env1: feature%2FPIPE-14323
+            env2: nitind123/newTemplates
+        execution:
+          onExecute:
+            - echo  Pipeline_10545
